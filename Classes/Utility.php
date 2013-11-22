@@ -167,10 +167,10 @@ class Tx_T3apicompat_Utility
     }
 
     /**
-	 * @param string $content
-	 * @return void
-	 * @see t3lib_extMgm::addPageTSConfig()
-	 * @see \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig()
+     * @param string $content
+     * @return void
+     * @see t3lib_extMgm::addPageTSConfig()
+     * @see \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig()
      */
     public static function extensionManagementUtilityAddPageTSConfig($content)
     {
@@ -182,12 +182,12 @@ class Tx_T3apicompat_Utility
     }
 
     /**
-	 * @param string
-	 * @param array
-	 * @param boolean
-	 * @return void
-	 * @see t3lib_extMgm::addTCAcolumns()
-	 * @see \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns()
+     * @param string $table
+     * @param array $columnArray
+     * @param boolean $addTofeInterface
+     * @return void
+     * @see t3lib_extMgm::addTCAcolumns()
+     * @see \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns()
      */
     public static function extensionManagementUtilityAddTCAcolumns($table, $columnArray, $addTofeInterface = 0)
     {
@@ -199,9 +199,9 @@ class Tx_T3apicompat_Utility
     }
 
     /**
-     * @param string
-     * @param string
-     * @param string
+     * @param string $piKeyToMatch
+     * @param string $value
+     * @param string $CTypeToMatch
      * @return void
      * @see t3lib_extMgm::addPiFlexFormValue()
      * @see \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue()
