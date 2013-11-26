@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'TYPO3 API compatibility library',
-	'description' => 'Library to be used by extension developers, to have easy API access over the major TYPO3 versions (4.5 LTS until 6.2 LTS)',
+	'description' => 'Library to be used by extension developers, to manage the gap between TYPO3 4.x and 6.x',
 	'category' => 'misc',
 	'author' => 'Agentur am Wasser | Maeder & Partner AG',
 	'author_email' => 'development@agenturamwasser.ch',
