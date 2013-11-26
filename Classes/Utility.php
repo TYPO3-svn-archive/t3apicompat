@@ -115,7 +115,7 @@ class Tx_T3apicompat_Utility
     public static function equalsBranch($versionNumber)
     {
         $versionNumber = self::convertVersionNumberToInteger($versionNumber);
-        $versionNumber = $versionNumber - ($versionNumber % 1000);
+        $versionNumber -= ($versionNumber % 1000);
         return (self::getVersionAsInteger() == $versionNumber);
     }
 
